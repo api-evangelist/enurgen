@@ -1,8 +1,31 @@
 aid: enurgen
 name: Enurgen
-description: Enurgen is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enurgen is a solar energy software company whose DUET platform uses 3D
+  physics-based modeling to optimize photovoltaic assets across their entire
+  lifecycle. The platform spans three products - Design, Construction, and
+  Operations - helping large-scale solar developers, independent power
+  producers, EPC engineers, and asset managers improve energy yield estimates,
+  validate construction against expected performance, and monitor plants in
+  production to close the gap between forecasted (P50) and actual field output.
+  Enurgen is a Techstars-backed company; customers include Scatec, Potentia,
+  Lightsource, Eni, and Kiewit. The company operates a customer web application
+  at app.enurgen.com but does not currently publish a public developer API,
+  documentation, or SDKs. This API Evangelist profile is an enrichment pass that
+  captures the company's public web properties and domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/enurgen/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://enurgen.com/wp-content/uploads/2025/10/logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Solar Energy
+- Renewable Energy
+- Energy
+- Asset Management
+- Software
+- SaaS
+- Analytics
+- Energy Optimization
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://enurgen.com/
+- type: Blog
+  url: https://enurgen.com/blog/
+- type: Login
+  url: https://app.enurgen.com/auth/login
+- type: Support
+  url: https://enurgen.com/contact-us/
+- type: TermsOfService
+  url: https://enurgen.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://enurgen.com/privacy-policy/
+- type: DomainSecurity
+  url: security/enurgen-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

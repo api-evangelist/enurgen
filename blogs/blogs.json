@@ -1,0 +1,21 @@
+{
+  "repo": "enurgen",
+  "feeds": [
+    {
+      "source": "https://enurgen.com/feed/",
+      "feed_url": "https://enurgen.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://enurgen.com/",
+      "feed_url": "https://enurgen.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 6,
+  "fetched": "2026-07-25T15:00:33Z"
+}
